@@ -1,0 +1,50 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease, box-shadow 0.3s ease;
+    width: 30px;
+    height: 45px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.3);
+    z-index: 1; /* 确保放大的元素在其他元素之上 */
+  }
+
+  .card-corner {
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .top-left {
+    top: 5px;
+    left: 5px;
+  }
+
+  .bottom-right {
+    bottom: 5px;
+    right: 5px;
+    transform: rotate(180deg); /* 使数字和花色倒转 */
+  }
+
+  .card-middle img {
+    position: relative;
+    width: 30px;
+    height: auto;
+    top: 8px;
+    left: 0.5px;
+  }
+
+  .text-red {
+    color: rgb(217, 22, 22);
+  }
+  
+  .text-black {
+    color: black;
+  }
