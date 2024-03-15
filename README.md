@@ -1,4 +1,4 @@
-# PokerCard Demo
+# PokerCard-React
 
 A frontend demo of Poker Cards based on `react`.
 
