@@ -2,17 +2,15 @@
 
 A frontend demo of Poker Cards based on `react`.
 
-## Display
-
-<img src="./src/assets/poker.png" alt="poker" style="zoom:50%;" />
+<img src="./src/assets/poker.png" alt="poker" width="500" />
 
 Shuffle:
 
-<img src="./src/assets/poker_shuffle.png" alt="poker-shuffle" style="zoom:50%;" />
+<img src="./src/assets/poker_shuffle.png" alt="poker-shuffle" width="500" />
 
 Hover:
 
-<img src="./src/assets/poker_shuffle.png" alt="poker-hover" style="zoom:50%;" />
+<img src="https://github.com/Y-aang/PokerCard-React/blob/master/src/assets/poker_hover.gif" alt="poker-hover" width="500" />
 
 ## Install
 
